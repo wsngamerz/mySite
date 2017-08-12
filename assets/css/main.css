@@ -1,0 +1,80 @@
+/*
+ *  Created By William Neild
+ *
+ *  Breakpoints (max-width):
+ *  - Extra Small Devices < 660px
+ *  - Small Devices <= 760px
+ *  - Medium Devices <= 990px
+ *  - Large Devices <= 1200
+ *  - Extra Large Devices > 1200px - (min-width)
+ */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+nav a {
+  padding: 0;
+  margin: 0;
+  color: #2E2E2E;
+}
+
+/* Header Navigation */
+
+header nav {
+  height: 80px;
+}
+
+header nav a {
+  font-size: 18px;
+  line-height: 1;
+  margin: 30px 20px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* header slideshow */
+
+header section {
+  background-color: #E8E8E8;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+header section h2 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slideshow-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slideshow-previous {
+  background-image: url('../img/previous-arrow.png');
+  left: 0;
+}
+
+.slideshow-next {
+  background-image: url('../img/next-arrow.png');
+  right: 0;
+}
